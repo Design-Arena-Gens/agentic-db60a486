@@ -915,3 +915,9 @@ config/database.yml
 *.zip
 
 # ===== END =====
+# Ensure project manifests are tracked
+!package.json
+!tsconfig.json
+!.eslintrc.json
+!next.config.js
+!next-env.d.ts
